@@ -7,4 +7,5 @@ end
 vim.opt.rtp:prepend(vim.env.LAZY or lazypath)
 
 require("lazy").setup("pawel/plugins")
+require("mason").setup()
 
