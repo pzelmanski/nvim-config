@@ -6,3 +6,10 @@ vim.o.tabstop = 4
 vim.o.expandtab = true
 vim.o.shifttabstop = 4
 
+
+vim.diagnostic.config({
+    float = {
+        source = 'always',
+        border = "single"
+    },
+})
