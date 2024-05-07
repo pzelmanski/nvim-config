@@ -35,7 +35,7 @@ return {
                 "prettier",
                 "stylua",
                 "eslint_d",
-                "ormolu", -- Haskell formatter
+                "fourmolu", -- Haskell formatter
             }
         })
     end,
